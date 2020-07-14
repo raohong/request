@@ -6,7 +6,7 @@
   "module": "dist/request.esm.js",
   "typings": "./dist/index.d.ts",
   "scripts": {
-    "test": "jest",
+    "test": "tsdx test",
     "dev": "tsdx watch",
     "coveralls": "cat ./coverage/lcov.info | node ./node_modules/coveralls/bin/coveralls.js",
     "build": "tsdx build",
